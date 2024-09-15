@@ -5,6 +5,7 @@
   height: 100vh;
   padding: 20px;
   flex-direction: column;
+  background: #0065a0;
 }
 
 .card {
