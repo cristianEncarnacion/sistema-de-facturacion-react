@@ -1,8 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h1>BILLING SYSTEM- SISTEMA DE FACTURACION</h1>
+<hr>
+Sistema de facturacion hecho en React y conectado a una base de datos. Aqui se puede añadir cliente, producto, proveedor, inventario, tiene un apartado de contabilidad donde aparece toda la informacion. Tambien presenta graficos del total de productos, de clientes, de facturas, de proveedores, de metodos de pagos, ingresos por mes y cantidad de facturas por mes. Es un sistema de facturacion simple pero funcional!
