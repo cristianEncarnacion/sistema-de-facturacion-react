@@ -8,9 +8,11 @@ import { MdPeopleAlt, MdInventory } from "react-icons/md";
 import { RiBillLine } from "react-icons/ri";
 import { MdOutlineInventory, MdAccountBalance } from "react-icons/md";
 import { CiLogout } from "react-icons/ci";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const navigate = useNavigate();
 
   const [userEmail, setUserEmail] = useState(""); // Estado para almacenar el email del usuario
 
@@ -94,10 +96,8 @@ const Navbar = () => {
                 onClick={handleClick}
                 className={stylesComponents.logoutButton}
               >
-                <a href="/">
-                  Salir
-                  <CiLogout />
-                </a>
+                Salir
+                <CiLogout />
               </button>
             </ul>
           </div>
