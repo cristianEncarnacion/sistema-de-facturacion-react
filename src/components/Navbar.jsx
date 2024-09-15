@@ -94,8 +94,10 @@ const Navbar = () => {
                 onClick={handleClick}
                 className={stylesComponents.logoutButton}
               >
-                Salir
-                <CiLogout />
+                <a href="/">
+                  Salir
+                  <CiLogout />
+                </a>
               </button>
             </ul>
           </div>
